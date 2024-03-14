@@ -1,5 +1,7 @@
 public class Car {
-    Engine engine= new Engine();
+    Engine engine= new Engine(" aee");
+    Engine engine2= new Engine();
+
 
 
     double weight = 1000;
@@ -10,7 +12,7 @@ public class Car {
 
     // TODO: (Level 3) добавь у Engine метод toString(), который будет возвращать строку из всех своих параметров через запятую
     public void talk() {
-        System.out.println("car model:" + carName + ", engine name=" + engine.model + ", weight:" + weight +", max speed:"
+        System.out.println("car model:" + carName + ", engine info ={" + engine + "}, weight:" + weight +", max speed:"
         + maxSpeed);
     }
 
