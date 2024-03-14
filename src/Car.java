@@ -1,14 +1,14 @@
 public class Car {
-    double weight;
-    double maxSpeed;
-    int seatsNumber;
-    String carName;
-    // TODO: добавь переменную с названием двигателя машины
+    String engineName = "1cd";
+    double weight = 1000;
+    double maxSpeed = 100;
+    int seatsNumber = 5;
+    String carName = "toyota";
 
     public void talk() {
-        System.out.println("bipbip");
+        System.out.println("car model:" + carName + ", engine name=" + engineName + ", weight:" + weight +", max speed:"
+        + maxSpeed);
     }
 
-    // TODO: добавь метод для отображения всех этих полей в консоль
 }
 
